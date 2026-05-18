@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Elyndra - Premium skin & lip care products. Shop dermatologically tested, natural skincare including SPF 50 sunscreen, Vitamin C serum, Retinol cream & more. Free shipping on orders above ₹499."/>
+  <meta name="keywords" content="skincare, lip care, SPF 50, sunscreen, vitamin C serum, retinol cream, niacinamide, face cleanser, anti-aging, brightening, elyndra"/>
+  <meta name="author" content="Elyndra - Undermuse"/>
+  <meta name="robots" content="index, follow"/>
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Elyndra - Premium Skin & Lip Care Products"/>
+  <meta property="og:description" content="Discover skincare that truly cares. Lightweight, effective, and crafted for your skin. Shop now with free shipping on orders above ₹499."/>
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200"/>
+  <meta property="og:url" content="https://elyndra.com"/>
+  <meta property="og:type" content="website"/>
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Elyndra - Premium Skin & Lip Care"/>
+  <meta name="twitter:description" content="Shop dermatologically tested skincare products. Free shipping available!"/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200"/>
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://elyndra.com"/>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  
+  <title>Elyndra - Premium Skin & Lip Care Products | Natural & Dermatologically Tested</title>
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Elyndra",
+    "url": "https://elyndra.com",
+    "logo": "https://elyndra.com/logo.png",
+    "description": "Premium skin and lip care products",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-7302658836",
+      "contactType": "Customer Service",
+      "email": "elyndracare@gmail.com"
+    },
+    "sameAs": [
+      "https://www.instagram.com/elyndra",
+      "https://www.facebook.com/elyndra",
+      "https://twitter.com/elyndra"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ======== ANNOUNCEMENT BAR ======== -->
+  <div class="announcement-bar">
+    <p>🎉 Free Shipping on Orders Above ₹499 | Use Code: <strong>ELYNDRA10</strong> for 10% Off</p>
+  </div>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#" aria-label="Elyndra Home">Elyndra</a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#products">Catalogue</a></li>
+        <li class="dropdown">
+          <a href="#concern" class="dropdown-toggle">
+            Shop by Concern 
+            <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#concern/anti-aging">Anti-Aging</a></li>
+            <li><a href="#concern/brightening">Brightening</a></li>
+            <li><a href="#concern/oil-control">Oil Control</a></li>
+            <li><a href="#concern/sun-protection">Sun Protection</a></li>
+            <li><a href="#concern/pore-minimizing">Pore Minimizing</a></li>
+          </ul>
+        </li>
+        <li><a href="#lip-care">Lip Care</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="#" aria-label="Search"><i class="fas fa-search"></i></a>
+        <a href="#" id="profileIcon" aria-label="Profile"><i class="fas fa-user"></i></a>
+        <a href="#" class="cart-icon" id="cartIcon" aria-label="Shopping Cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </div>
+      <div class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section class="hero" aria-label="Featured Products Slider">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1600');">
+        <div class="hero-content">
+          <span class="hero-tag">New Arrivals</span>
+          <h1>Glow With <br/><span>Elyndra</span></h1>
+          <p>Discover skincare that truly cares. Lightweight, effective, and crafted for your skin.</p>
+          <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600');">
+        <div class="hero-content">
+          <span class="hero-tag">Best Seller</span>
+          <h1>SPF 50 PA++++ <br/><span>Sun Cream</span></h1>
+          <p>Lightweight & non-greasy protection for everyday use.</p>
+          <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1600');">
+        <div class="hero-content">
+          <span class="hero-tag">Premium Quality</span>
+          <h1>Vitamin C <br/><span>Face Serum</span></h1>
+          <p>Brightening & anti-aging formula with Hyaluronic Acid.</p>
+          <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dots" aria-label="Slider Navigation">
+      <span class="dot active" data-slide="0" aria-label="Slide 1"></span>
+      <span class="dot" data-slide="1" aria-label="Slide 2"></span>
+      <span class="dot" data-slide="2" aria-label="Slide 3"></span>
+    </div>
+    <button class="hero-arrow left" id="prevSlide" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+    <button class="hero-arrow right" id="nextSlide" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+  </section>
+
+  <!-- ======== FEATURES BAR ======== -->
+  <section class="features-bar">
+    <div class="feature-item">
+      <i class="fas fa-shipping-fast"></i>
+      <div>
+        <h4>Free Shipping</h4>
+        <p>On orders above ₹499</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-leaf"></i>
+      <div>
+        <h4>100% Natural</h4>
+        <p>Clean ingredients</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-shield-alt"></i>
+      <div>
+        <h4>Derma Tested</h4>
+        <p>Safe for all skin types</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-undo"></i>
+      <div>
+        <h4>Easy Returns</h4>
+        <p>7-day return policy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SKIN CARE PRODUCTS ======== -->
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <span class="section-tag">Our Collection</span>
+      <h2>Skin Care</h2>
+      <p>Discover our range of premium skincare products</p>
+    </div>
+    <div class="products-grid" id="productsGrid">
+      <!-- Products will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <!-- ======== FEATURED PRODUCTS ======== -->
+  <section class="featured-section" id="featured">
+    <div class="section-header">
+      <span class="section-tag">Handpicked for You</span>
+      <h2>Featured Products</h2>
+      <p>Our best-selling products loved by thousands</p>
+    </div>
+    <div class="featured-grid" id="featuredGrid">
+      <!-- Featured products will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <!-- ======== NEWSLETTER ======== -->
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <h2>Stay in the Glow</h2>
+      <p>Subscribe to get exclusive offers, skincare tips, and new product launches.</p>
+      <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+        <input type="email" placeholder="Enter your email address" required aria-label="Email Address"/>
+        <button type="submit" class="btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 class="footer-logo">Elyndra</h3>
+        <p>Premium skincare crafted with love and science. Your skin deserves the best.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#shipping">Shipping Policy</a></li>
+          <li><a href="#payment">Payment Policy</a></li>
+          <li><a href="#terms">Terms & Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#values">Our Values</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#shipping">Shipping Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-envelope"></i> elyndracare@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 7302658836</p>
+        <p class="presented-by">Presented by <strong>Undermuse</strong></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Elyndra. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ======== CART SIDEBAR ======== -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3><i class="fas fa-shopping-bag"></i> Shopping Cart</h3>
+      <button class="close-cart" id="closeCart" aria-label="Close Cart">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <!-- Cart items will be dynamically loaded here -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Subtotal:</span>
+        <span id="cartTotal">₹0.00</span>
+      </div>
+      <button class="btn-primary btn-checkout" onclick="checkout()">Proceed to Checkout</button>
+      <button class="btn-secondary btn-continue" id="continueShopping">Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- ======== PROFILE SIDEBAR ======== -->
+  <div class="profile-sidebar" id="profileSidebar">
+    <div class="profile-header">
+      <h3><i class="fas fa-user"></i> My Account</h3>
+      <button class="close-profile" id="closeProfile" aria-label="Close Profile">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <!-- Login/Register Form (shown when not logged in) -->
+    <div class="auth-container" id="authContainer">
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login">Login</button>
+        <button class="auth-tab" data-tab="register">Register</button>
+      </div>
+      
+      <!-- Login Form -->
+      <form class="auth-form active" id="loginForm" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label for="loginEmail">Email Address</label>
+          <input type="email" id="loginEmail" required placeholder="Enter your email"/>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" required placeholder="Enter your password"/>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Login</button>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+      </form>
+      
+      <!-- Register Form -->
+      <form class="auth-form" id="registerForm" onsubmit="handleRegister(event)">
+        <div class="form-group">
+          <label for="registerName">Full Name</label>
+          <input type="text" id="registerName" required placeholder="Enter your name"/>
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">Email Address</label>
+          <input type="email" id="registerEmail" required placeholder="Enter your email"/>
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Password</label>
+          <input type="password" id="registerPassword" required placeholder="Create a password"/>
+        </div>
+        <div class="form-group">
+          <label for="registerConfirmPassword">Confirm Password</label>
+          <input type="password" id="registerConfirmPassword" required placeholder="Confirm your password"/>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Register</button>
+      </form>
+    </div>
+    
+    <!-- User Profile (shown when logged in) -->
+    <div class="user-profile" id="userProfile" style="display: none;">
+      <div class="profile-info">
+        <div class="profile-avatar">
+          <i class="fas fa-user-circle"></i>
+        </div>
+        <h4 id="userName">User Name</h4>
+        <p id="userEmail">user@email.com</p>
+      </div>
+      
+      <div class="profile-menu">
+        <a href="#" class="profile-menu-item">
+          <i class="fas fa-box"></i>
+          <span>My Orders</span>
+        </a>
+        <a href="#" class="profile-menu-item">
+          <i class="fas fa-heart"></i>
+          <span>Wishlist</span>
+        </a>
+        <a href="#" class="profile-menu-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Addresses</span>
+        </a>
+        <a href="#" class="profile-menu-item">
+          <i class="fas fa-cog"></i>
+          <span>Settings</span>
+        </a>
+        <a href="#" class="profile-menu-item" onclick="handleLogout()">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Logout</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== OVERLAY ======== -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ======== TOAST NOTIFICATION ======== -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMessage">Item added to cart!</span>
+  </div>
+
+  <!-- ======== BACK TO TOP ======== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
